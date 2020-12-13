@@ -54,7 +54,7 @@ class Graph {
         return this.store[key].indexOf(value) === -1
     }
 
-    /** Добавляет вершину name в список key*/
+    /** Добавляет вершину name в список key */
 
     addFriends(key, name) {
         this.store[key].push(name)

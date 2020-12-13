@@ -1,4 +1,4 @@
-/* statesNeeded - список требуемых шатов, stations - станции и штаты вещания*/
+/* statesNeeded - список требуемых шатов, stations - станции и штаты вещания */
 
 const statesNeeded = new Set(['mt', 'wa', 'or', 'id', 'nv', 'ut', 'ca', 'az']),
 	  stations = {

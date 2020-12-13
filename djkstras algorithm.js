@@ -45,7 +45,6 @@ class Djkstra {
     }
 
     createParents(graph) {
-        //this.createGraph(this.parents, null, keys[0]);
         const keys = Object.keys(graph);
 
         keys.forEach(el => {

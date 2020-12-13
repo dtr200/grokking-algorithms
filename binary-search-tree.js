@@ -1,41 +1,3 @@
-/* class BinarySearchTreeNode{
-    constructor(key, value, size){
-        this.key = key;
-        this.value = value;
-        this.size = size;
-    }
-}
-
-class BinarySearchTree{
-    constructor(){
-        this.root = null;
-        this.n = 0; //размер дерева
-    }
-
-    add(key, value){
-
-    }
-
-    get(key){
-
-    }
-
-    isEmpty(){
-        return this.n === 0;
-    }
-
-    size(){
-        return this.n
-    }
-
-    contains(key){
-        if(key == null) return false;
-        return this.get(key) != null;
-    }
-
-
-} */
-
 class Node{
     constructor(data, left = null, right = null){
         this.data = data;
@@ -158,9 +120,5 @@ class BinarySearchTree{
             }
         }
         this.root = removeNode(this.root, data);
-    }
-
-    traverse(){
-
     }
 }

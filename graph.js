@@ -1,4 +1,4 @@
-let graph = {
+const graph = {
     'you': ['alice', 'bob', 'claire'],
     'bob': ['anuj', 'peggy'],
     'alice': ['peggy'],
